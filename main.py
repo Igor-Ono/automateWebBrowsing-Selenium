@@ -37,3 +37,4 @@ if __name__ == '__main__':
         additionField2.send_keys('2')
         getTotalButton = driver.find_element_by_xpath('//*[@id="gettotal"]/button')
         getTotalButton.click()
+        print('done')
